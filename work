@@ -1,0 +1,27 @@
+// 1. Створення змінних
+var x = 10;
+let y = "Hello";
+const z = true;
+
+// 2. Визначення типу змінних і виведення у консоль
+console.log(typeof x); 
+console.log(typeof y); 
+console.log(typeof z); 
+
+// 3. Створення об'єкта
+let student = {
+    name: "Іван",
+    age: 20,
+    isStudent: true
+};
+
+// 4. Додавання нового поля "університет" і виведення об'єкта
+student.university = "Київський університет";
+console.log(student);
+
+// 5. Зміна типу змінної, оголошеної через let
+y = 25;
+console.log(typeof y); 
+
+// 6. Спроба змінити значення змінної, оголошеної через const
+// z = false; // Викличе помилку: Assignment to constant variable.
